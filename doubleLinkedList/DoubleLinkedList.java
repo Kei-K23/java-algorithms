@@ -1,3 +1,5 @@
+package doubleLinkedList;
+
 /**
  * Node
  * Represents a single element in a double linked list.
@@ -23,7 +25,7 @@ class Node {
  * DoubleLinkedList
  * Represents a double linked list data structure.
  */
-class DoubleLinkedList {
+public class DoubleLinkedList {
     Node head; // Reference to the head of the list
     Node tail; // Reference to the tail of the list
 
@@ -153,26 +155,5 @@ class DoubleLinkedList {
             current = current.next; // Move to the next node
         }
         return false; // Node with the target data not found
-    }
-}
-
-/**
- * Double_Linked_list
- * Main class to test the DoubleLinkedList implementation.
- */
-public class Double_Linked_list {
-    public static void main(String[] args) {
-        DoubleLinkedList list = new DoubleLinkedList(); // Create a new double linked list
-
-        // Insert nodes at the head and tail
-        list.insertAtHead(10);
-        list.insertAtHead(50);
-        list.insertAtHead(70);
-        list.insertAtHead(20);
-        list.insertAtTail(30);
-
-        list.traverse(); // Print the elements of the double linked list
-        list.delete(50); // Delete a node
-        list.traverse(); // Print the updated double linked list
     }
 }

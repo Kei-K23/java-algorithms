@@ -1,3 +1,5 @@
+package linkedList;
+
 /**
  * Node
  * Represents a single element in a linked list.
@@ -21,7 +23,7 @@ class Node {
  * LinkedList
  * Represents a linked list data structure.
  */
-class LinkedList {
+public class LinkedList {
     Node head; // Reference to the head of the list
     Node tail; // Reference to the tail of the list
 
@@ -154,22 +156,5 @@ class LinkedList {
             }
             return false; // Node with the target data not found
         }
-    }
-}
-
-/**
- * Linked_list
- * Main class to test the LinkedList implementation.
- */
-public class Linked_list {
-    public static void main(String[] args) {
-        LinkedList list = new LinkedList(); // Create a new linked list
-        list.insertAtHead(10); // Insert nodes at the head
-        list.insertAtHead(20);
-        list.insertAtTail(30); // Insert node at the tail
-
-        list.traverse(); // Print the elements of the linked list
-        list.delete(20); // Delete a node
-        list.traverse(); // Print the updated linked list
     }
 }
