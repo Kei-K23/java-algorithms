@@ -7,6 +7,7 @@ This is the collection of coding implementation of `DSA` in `Java`.
 ## Data structures
 
 - 🅱️ [Linked list](./linked-list/Linked_list.java)
+- 🅱️ [Double linked list](./Double%20linked-list/Double_Linked_list.java)
 
 ## acknowledgement
 
