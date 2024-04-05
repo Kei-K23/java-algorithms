@@ -1,16 +1,15 @@
-import queue.Queue;
+import stack.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        // Test
+        // import the data structure and test them below
 
-        Queue queue = new Queue();
-        queue.enqueue(10);
-        queue.enqueue(20);
-        queue.enqueue(30);
-        queue.enqueue(40);
-        queue.display();
-        queue.dequeue();
-        queue.display();
+        Stack myStack = new Stack();
+
+        myStack.push(10);
+        myStack.push(20);
+        myStack.push(30);
+
+        myStack.display();
     }
 }
