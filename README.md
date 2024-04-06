@@ -11,6 +11,7 @@ This is the collection of coding implementation of `DSA` in `Java`.
 - 🅱️ [Queue](./queue/Queue.java)
 - 🅱️ [Stack](./stack/Stack.java)
 - 🅱️ [Hash Map](./hashMap/HashMap.java)
+- 🅱️ [Binary Search Tree](./binarySearchTree/BinarySearchTree.java)
 
 ## acknowledgement
 
