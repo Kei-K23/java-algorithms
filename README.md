@@ -12,6 +12,7 @@ This is the collection of coding implementation of `DSA` in `Java`.
 - 🅱️ [Stack](./stack/Stack.java)
 - 🅱️ [Hash Map](./hashMap/HashMap.java)
 - 🅱️ [Binary Search Tree](./binarySearchTree/BinarySearchTree.java)
+- 🅱️ [Graph](./graph/Graph.java)
 
 ## acknowledgement
 
