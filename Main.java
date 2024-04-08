@@ -1,12 +1,12 @@
-import algorithms.searching.linearSearch.LinearSearch;
+import algorithms.searching.binarySearch.BinarySearch;
 
 public class Main {
   public static void main(String[] args) {
     // import the data structure and test them below
 
-    int[] arr = { 1, 2, 3, 4, 5 };
+    int[] arr = { 1, 2, 3, 4 };
 
-    int result = LinearSearch.linearSearch(arr, 10);
+    int result = BinarySearch.binarySearch(arr, 3);
 
     System.out.println(result);
   }
