@@ -1,4 +1,4 @@
-package hashMap; // Declares the package name
+package hashMap;
 
 import java.util.LinkedList;
 

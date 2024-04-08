@@ -1,4 +1,4 @@
-package queue; // Declares the package name
+package queue;
 
 public class Queue { // Declares a public class named Queue
     private static final int MAX_SIZE = 100; // Declares a private constant integer variable MAX_SIZE with value 100
